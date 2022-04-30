@@ -5,7 +5,7 @@ file="1er/Avoir.md"
 readarray -t conjugaison < $file
 
 # echo ${conjugaison[3]}
-begin="<style> table { background-color: #ddd; } tbody { color: #ddddd; } thead { background-color: #333; color: #ff0; } td { width: 50%; padding-left: 10%; } .t1 { width: 60%; font-family: arial, sans-serif; }<h1> <h1>${conjugaison[0]}</h1> <table class=\"t1\"> <thead> <tr> <th>..........Present...........</th> <th>...........Passe.Compose..</th> </tr> </thead> <tbody> <tr> <td>"
+begin="<style> table { background-color: #ddd; } tbody { color: #ddddd; } thead { background-color: #333; color: #ff0; } td { width: 50%; padding-left: 10%; } .t1 { width: 60%; font-family: arial, sans-serif; }</style><h1> <h1>${conjugaison[0]}</h1> <table class=\"t1\"> <thead> <tr> <th>..........Present...........</th> <th>...........Passe.Compose..</th> </tr> </thead> <tbody> <tr> <td>"
 # html=""
 for i in {2..37};do
     case "$i" in
