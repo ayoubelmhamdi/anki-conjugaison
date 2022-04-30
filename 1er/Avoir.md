@@ -1,3 +1,4 @@
+Avoir
 # présent
 ai      
 as      
@@ -5,16 +6,23 @@ a
 avons   
 avez    
 ont     
+# Passe compose
+ai eu
+as eu
+a eu
+avons eu
+avez eu
+ont eu
 # Imparfait
-avias
+avais
 avais
 avais
 avions
 aviez
 avaient
 # passé-simple
-eue           
-eue           
+eus           
+eus           
 eut           
 eûmes         
 eûtes         
